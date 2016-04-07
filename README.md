@@ -12,9 +12,9 @@ Onde [command] pode ser um dos serviços listados abaixo:
 
 ### Eventos
 
-Comando: `list/events`
-Variáveis: `fromNow`
-Retorno: Um JSON com a lista de eventos do ano atual.
+Comando: `list/events`<br/>
+Variáveis: `fromNow`<br/>
+Retorno: Um JSON com a lista de eventos do ano atual.<br/>
 Caso a variável `fromNow` seja enviada com valor 1, trará apenas eventos a partir da data atual.
 
 Exemplo:
@@ -23,15 +23,15 @@ Exemplo:
 
 ### Artigos
 
-Comando: `list/articles`
-Variáveis: N/A
+Comando: `list/articles`<br/>
+Variáveis: N/A<br/>
 Retorno: Um JSON contendo a lista dos últimos 10 artigos.
 
 ### Patrocinadores
 
-Comando: `list/sponsors`
-Variáveis: `eventId`
-Retorno: Um JSON com a lista de patrocinadores do programa de afiliados BrazilJS.
+Comando: `list/sponsors`<br/>
+Variáveis: `eventId`<br/>
+Retorno: Um JSON com a lista de patrocinadores do programa de afiliados BrazilJS.<br/>
 Caso a ID de algum evento seja enviada, retorna apenas os patrocinadores para aquele evento.
 
 Exemplo:
